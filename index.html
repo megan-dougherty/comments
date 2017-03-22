@@ -1,0 +1,45 @@
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://use.fontawesome.com/711885524a.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <h1>Drop your comment here</h1>
+
+        <form id="todoForm">
+          <div class="form-group">
+            <input id="user" class="form-control" placeholder="Name (optional)">
+          </div>
+          <div class="form-group">
+            <textarea id="text" class="form-control" rows="4" cols="30" placeholder="Speak your mind"></textarea>
+          </div>
+          <div class="form-group">
+            <button type="button" onclick="comment()" class="button">Add it!</button>
+          </div>
+        </form>
+        <p id="demo"></p>
+        <ul id="comments" class="list-group">
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+	<script src="bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>

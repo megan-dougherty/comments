@@ -1,0 +1,66 @@
+body {
+	text-align: center;
+}
+
+html {
+	background: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	font-size: 60px;
+	font-family: 'Amatic SC', cursive;
+	animation: shake 4s infinite;
+	color: #f1f0ed;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.form-control {	
+	margin-top: 10px;
+	background-color: #eee9e9;
+	border: 1px solid #8ab661;
+}
+
+.button {
+	font-family: 'Amatic SC', cursive;
+	font-weight: 800;
+	font-size: 18px;
+	margin-top: 20px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #3c8326;
+	border: none;
+	text-align: center;
+}
+
+p, h3 {
+	margin-top: 5%;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 28px;
+	font-weight: 900;
+	color: white;
+}
+
+.deleteBtn {
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	background-color: #3c8326;
+	font-weight: 800;
+	font-size: 18px;
+	margin-top: 20px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border: none;
+	text-align: center;
+	margin-right: 27px;
+}
+
+ul li.commentBox {
+	display: list-item;
+	background-color: transparent;
+}
+ 
+
